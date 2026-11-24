@@ -1,0 +1,69 @@
+{
+  "format_version": 2,
+  "policy": "static_quality_unaware",
+  "horizon": 8,
+  "seed_provenance": {
+    "source": "Checkpoint 3c deterministic range example",
+    "seed": null
+  },
+  "plant": {
+    "id": "RF1",
+    "coordinates": [
+      0,
+      0
+    ],
+    "inventory_capacity": null,
+    "workstations": [
+      {
+        "id": "WS1",
+        "operation_id": 1,
+        "duration": 1,
+        "windows": [
+          [
+            0,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  "collection_point": {
+    "id": "CP1",
+    "coordinates": [
+      3,
+      0
+    ]
+  },
+  "recycling_facilities": [],
+  "vehicles": [
+    {
+      "id": "AV1",
+      "initial_site": "RF1",
+      "speed": 1,
+      "payload_capacity": 1,
+      "maximum_range": 6
+    }
+  ],
+  "products": [
+    {
+      "id": "P1",
+      "origin": "CP1",
+      "release_time": 0,
+      "quality_class": "QM",
+      "disposition": "remanufacture",
+      "operations": [
+        1
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "vehicle_id": "AV1",
+      "departure_time": 0,
+      "stops": [
+        "CP1",
+        "RF1"
+      ]
+    }
+  ]
+}

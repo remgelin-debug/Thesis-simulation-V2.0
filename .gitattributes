@@ -1,0 +1,9 @@
+tests/fixtures/checkpoint_1/scenario.json text eol=lf
+tests/fixtures/checkpoint_3a/scenario.json text eol=lf
+tests/fixtures/checkpoint_3b/scenario.json text eol=lf
+tests/fixtures/checkpoint_3c/scenario.json text eol=lf
+tests/fixtures/checkpoint_4a/scenario.json text eol=lf
+tests/fixtures/checkpoint_4b/scenario.json text eol=lf
+tests/fixtures/checkpoint_4c/scenario.json text eol=lf
+
+tests/inputs/*.json text eol=lf

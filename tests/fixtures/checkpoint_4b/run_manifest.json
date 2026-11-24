@@ -1,0 +1,12 @@
+{
+  "run_id": "valid",
+  "policy": "dynamic_quality_unaware",
+  "input_format_version": 3,
+  "output_format_version": 3,
+  "scenario_sha256": "b6ac678d23edef88f8c7082b702173a56592fcd385a7f087aeadb3c176479178",
+  "seed_provenance": {
+    "source": "Checkpoint 4b mid-leg insertion example",
+    "seed": null
+  },
+  "status": "completed"
+}

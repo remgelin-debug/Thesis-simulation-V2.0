@@ -1,0 +1,12 @@
+{
+  "run_id": "checkpoint-1-reviewed",
+  "policy": "static_quality_unaware",
+  "input_format_version": 1,
+  "output_format_version": 1,
+  "scenario_sha256": "f46cc2fe9fe5a6b754b914407e46c0d83a201be729367b62343bde68d7fabd54",
+  "seed_provenance": {
+    "source": "Section 12 deterministic fixture",
+    "seed": null
+  },
+  "status": "completed"
+}

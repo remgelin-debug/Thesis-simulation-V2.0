@@ -1,0 +1,107 @@
+{
+  "format_version": 2,
+  "policy": "static_quality_unaware",
+  "horizon": 14,
+  "plant": {
+    "id": "RF1",
+    "coordinates": [
+      0,
+      0
+    ],
+    "inventory_capacity": null,
+    "workstations": [
+      {
+        "id": "WS1",
+        "operation_id": 1,
+        "duration": 0.5,
+        "windows": [
+          [
+            0,
+            14
+          ]
+        ]
+      }
+    ]
+  },
+  "collection_point": {
+    "id": "CP1",
+    "coordinates": [
+      1,
+      0
+    ]
+  },
+  "vehicles": [
+    {
+      "id": "AV1",
+      "initial_site": "RF1",
+      "speed": 1,
+      "payload_capacity": 100,
+      "maximum_range": null
+    },
+    {
+      "id": "AV2",
+      "initial_site": "RF1",
+      "speed": 1,
+      "payload_capacity": 100,
+      "maximum_range": null
+    }
+  ],
+  "trips": [
+    {
+      "vehicle_id": "AV1",
+      "departure_time": 4,
+      "stops": [
+        "CP1",
+        "RF1"
+      ]
+    },
+    {
+      "vehicle_id": "AV2",
+      "departure_time": 4,
+      "stops": [
+        "CP1",
+        "RC1"
+      ]
+    }
+  ],
+  "recycling_facilities": [
+    {
+      "id": "RC1",
+      "coordinates": [
+        0,
+        1
+      ]
+    }
+  ],
+  "generation": {
+    "arrival_rate": 2,
+    "start_time": 0,
+    "end_time": 3,
+    "batch_size": {
+      "values": [
+        1,
+        2
+      ],
+      "weights": [
+        1,
+        1
+      ]
+    }
+  },
+  "quality_classes": [
+    {
+      "id": "QM",
+      "weight": 1,
+      "disposition": "remanufacture",
+      "operations": [
+        1
+      ]
+    },
+    {
+      "id": "QR",
+      "weight": 1,
+      "disposition": "recycle",
+      "operations": []
+    }
+  ]
+}

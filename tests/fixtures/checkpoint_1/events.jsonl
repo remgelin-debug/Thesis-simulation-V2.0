@@ -1,0 +1,18 @@
+{"sequence": 1, "time": 0, "event_type": "return_release", "product": {"id": "P1", "origin": "CP1", "release_time": 0, "quality_class": "Q132", "disposition": "remanufacture", "operations": [1, 3, 2]}}
+{"sequence": 2, "time": 0, "event_type": "assignment", "product_id": "P1", "vehicle_id": "AV1", "destination": "RF1"}
+{"sequence": 3, "time": 0, "event_type": "leg_departure", "vehicle_id": "AV1", "origin": "RF1", "target": "CP1", "origin_coordinates": [0, 0], "target_coordinates": [2, 0], "departure_time": 0, "arrival_time": 2.0, "distance": 2.0, "load": []}
+{"sequence": 4, "time": 2.0, "event_type": "leg_arrival", "vehicle_id": "AV1", "origin": "RF1", "target": "CP1", "origin_coordinates": [0, 0], "target_coordinates": [2, 0], "departure_time": 0, "arrival_time": 2.0, "distance": 2.0, "load": []}
+{"sequence": 5, "time": 2.0, "event_type": "pickup", "product_id": "P1", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 6, "time": 2.0, "event_type": "leg_departure", "vehicle_id": "AV1", "origin": "CP1", "target": "RF1", "origin_coordinates": [2, 0], "target_coordinates": [0, 0], "departure_time": 2.0, "arrival_time": 4.0, "distance": 2.0, "load": ["P1"]}
+{"sequence": 7, "time": 4.0, "event_type": "leg_arrival", "vehicle_id": "AV1", "origin": "CP1", "target": "RF1", "origin_coordinates": [2, 0], "target_coordinates": [0, 0], "departure_time": 2.0, "arrival_time": 4.0, "distance": 2.0, "load": ["P1"]}
+{"sequence": 8, "time": 4.0, "event_type": "plant_admission", "product_id": "P1", "plant_id": "RF1", "vehicle_id": "AV1"}
+{"sequence": 9, "time": 4.0, "event_type": "operation_start", "product_id": "P1", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 4.0, "end_time": 6.0, "window": [4, 6]}
+{"sequence": 10, "time": 6.0, "event_type": "operation_complete", "product_id": "P1", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 4.0, "end_time": 6.0, "window": [4, 6]}
+{"sequence": 11, "time": 6.0, "event_type": "inventory_return", "product_id": "P1", "plant_id": "RF1", "next_operation_index": 1}
+{"sequence": 12, "time": 8, "event_type": "operation_start", "product_id": "P1", "plant_id": "RF1", "workstation_id": "WS3", "operation_id": 3, "operation_index": 1, "start_time": 8, "end_time": 11, "window": [8, 11]}
+{"sequence": 13, "time": 11, "event_type": "operation_complete", "product_id": "P1", "plant_id": "RF1", "workstation_id": "WS3", "operation_id": 3, "operation_index": 1, "start_time": 8, "end_time": 11, "window": [8, 11]}
+{"sequence": 14, "time": 11, "event_type": "inventory_return", "product_id": "P1", "plant_id": "RF1", "next_operation_index": 2}
+{"sequence": 15, "time": 12, "event_type": "operation_start", "product_id": "P1", "plant_id": "RF1", "workstation_id": "WS2", "operation_id": 2, "operation_index": 2, "start_time": 12, "end_time": 13, "window": [12, 13]}
+{"sequence": 16, "time": 13, "event_type": "operation_complete", "product_id": "P1", "plant_id": "RF1", "workstation_id": "WS2", "operation_id": 2, "operation_index": 2, "start_time": 12, "end_time": 13, "window": [12, 13]}
+{"sequence": 17, "time": 13, "event_type": "remanufactured", "product_id": "P1"}
+{"sequence": 18, "time": 14, "event_type": "horizon", "product_state": "remanufactured"}

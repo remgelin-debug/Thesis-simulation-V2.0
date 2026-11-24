@@ -1,0 +1,12 @@
+{
+  "run_id": "checkpoint-4c-aware-first",
+  "policy": "dynamic_quality_aware",
+  "input_format_version": 3,
+  "output_format_version": 3,
+  "scenario_sha256": "4fc03f9da3d44e4b67729c3119064e6957e5f4a118a671cde6869567c57f0420",
+  "seed_provenance": {
+    "source": "Checkpoint 4c shared two-plant comparison",
+    "seed": null
+  },
+  "status": "completed"
+}

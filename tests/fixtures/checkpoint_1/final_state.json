@@ -1,0 +1,74 @@
+{
+  "time": 14,
+  "product_state": "remanufactured",
+  "product_location": null,
+  "assigned_vehicle": "AV1",
+  "planned_destination": "RF1",
+  "actual_destination": "RF1",
+  "next_operation": 3,
+  "inventory": [],
+  "inventory_entered_at": null,
+  "inventory_wait": 3.0,
+  "vehicle_location": "RF1",
+  "vehicle_status": "idle",
+  "vehicle_load": [],
+  "vehicle_distance": 4.0,
+  "active_leg": null,
+  "active_operation": null,
+  "milestones": {
+    "release": 0,
+    "pickup": 2.0,
+    "admission": 4.0,
+    "completion": 13
+  },
+  "operation_history": [
+    {
+      "product_id": "P1",
+      "plant_id": "RF1",
+      "workstation_id": "WS1",
+      "operation_id": 1,
+      "operation_index": 0,
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "window": [
+        4,
+        6
+      ]
+    },
+    {
+      "product_id": "P1",
+      "plant_id": "RF1",
+      "workstation_id": "WS3",
+      "operation_id": 3,
+      "operation_index": 1,
+      "start_time": 8,
+      "end_time": 11,
+      "window": [
+        8,
+        11
+      ]
+    },
+    {
+      "product_id": "P1",
+      "plant_id": "RF1",
+      "workstation_id": "WS2",
+      "operation_id": 2,
+      "operation_index": 2,
+      "start_time": 12,
+      "end_time": 13,
+      "window": [
+        12,
+        13
+      ]
+    }
+  ],
+  "product_id": "P1",
+  "summary": {
+    "generated": 1,
+    "remanufactured": 1,
+    "recycled": 0,
+    "unfinished": 0,
+    "vehicle_distance": 4.0,
+    "plant_inventory_wait": 3.0
+  }
+}

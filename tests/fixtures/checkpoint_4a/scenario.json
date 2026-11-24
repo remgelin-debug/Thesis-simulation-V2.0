@@ -1,0 +1,90 @@
+{
+  "format_version": 2,
+  "policy": "static_quality_unaware",
+  "horizon": 10,
+  "seed_provenance": {
+    "source": "Checkpoint 4a fixed-policy comparison",
+    "seed": null
+  },
+  "plant": {
+    "id": "RF1",
+    "coordinates": [
+      0,
+      0
+    ],
+    "inventory_capacity": null,
+    "workstations": [
+      {
+        "id": "WS1",
+        "operation_id": 1,
+        "duration": 1,
+        "windows": [
+          [
+            8,
+            10
+          ]
+        ]
+      },
+      {
+        "id": "WS2",
+        "operation_id": 2,
+        "duration": 1,
+        "windows": [
+          [
+            3,
+            10
+          ]
+        ]
+      }
+    ]
+  },
+  "collection_point": {
+    "id": "CP1",
+    "coordinates": [
+      1,
+      0
+    ]
+  },
+  "recycling_facilities": [],
+  "vehicles": [
+    {
+      "id": "AV1",
+      "initial_site": "RF1",
+      "speed": 1,
+      "payload_capacity": 1,
+      "maximum_range": null
+    }
+  ],
+  "products": [
+    {
+      "id": "P1",
+      "origin": "CP1",
+      "release_time": 0,
+      "quality_class": "Q1",
+      "disposition": "remanufacture",
+      "operations": [
+        1
+      ]
+    },
+    {
+      "id": "P2",
+      "origin": "CP1",
+      "release_time": 0.5,
+      "quality_class": "Q2",
+      "disposition": "remanufacture",
+      "operations": [
+        2
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "vehicle_id": "AV1",
+      "departure_time": 1,
+      "stops": [
+        "CP1",
+        "RF1"
+      ]
+    }
+  ]
+}

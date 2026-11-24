@@ -1,0 +1,12 @@
+{
+  "run_id": "aware",
+  "policy": "static_quality_aware",
+  "input_format_version": 2,
+  "output_format_version": 2,
+  "scenario_sha256": "d5320792df43ccfd6a2750ee552ffe6c1158c4d198d4a0d40b7db844f0086006",
+  "seed_provenance": {
+    "source": "Checkpoint 4a fixed-policy comparison",
+    "seed": null
+  },
+  "status": "completed"
+}

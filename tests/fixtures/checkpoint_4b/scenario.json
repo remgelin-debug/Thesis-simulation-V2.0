@@ -1,0 +1,79 @@
+{
+  "format_version": 3,
+  "policy": "dynamic_quality_unaware",
+  "horizon": 12,
+  "seed_provenance": {
+    "source": "Checkpoint 4b mid-leg insertion example",
+    "seed": null
+  },
+  "plant": {
+    "id": "RF1",
+    "coordinates": [
+      0,
+      0
+    ],
+    "inventory_capacity": null,
+    "workstations": [
+      {
+        "id": "WS1",
+        "operation_id": 1,
+        "duration": 1,
+        "windows": [
+          [
+            0,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  "collection_points": [
+    {
+      "id": "CP1",
+      "coordinates": [
+        4,
+        0
+      ]
+    },
+    {
+      "id": "CP2",
+      "coordinates": [
+        2,
+        1
+      ]
+    }
+  ],
+  "recycling_facilities": [],
+  "vehicles": [
+    {
+      "id": "AV1",
+      "initial_site": "RF1",
+      "speed": 1,
+      "payload_capacity": 2,
+      "maximum_range": 10
+    }
+  ],
+  "products": [
+    {
+      "id": "P1",
+      "origin": "CP1",
+      "release_time": 0,
+      "quality_class": "QM",
+      "disposition": "remanufacture",
+      "operations": [
+        1
+      ]
+    },
+    {
+      "id": "P2",
+      "origin": "CP2",
+      "release_time": 5,
+      "quality_class": "QM",
+      "disposition": "remanufacture",
+      "operations": [
+        1
+      ]
+    }
+  ],
+  "trips": []
+}

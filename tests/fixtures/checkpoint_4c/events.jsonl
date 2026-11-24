@@ -1,0 +1,19 @@
+{"sequence": 1, "time": 0, "event_type": "return_release", "product": {"id": "P1", "origin": "CP1", "release_time": 0, "quality_class": "QM", "disposition": "remanufacture", "operations": [1]}}
+{"sequence": 2, "time": 0, "event_type": "vehicle_available", "vehicle_id": "AV1", "reason": "initial"}
+{"sequence": 3, "time": 0, "event_type": "dispatch", "trigger": {"released_products": ["P1"], "available_vehicles": ["AV1"]}, "decision_index": 1}
+{"sequence": 4, "time": 0, "event_type": "assignment", "product_id": "P1", "vehicle_id": "AV1", "destination": "RF2"}
+{"sequence": 5, "time": 0, "event_type": "route_revised", "vehicle_id": "AV1", "product_id": "P1", "route_version": 1, "position": [0, 0], "remaining_range": null, "old_remaining_stops": [], "new_remaining_stops": [{"site_id": "CP1", "pickups": ["P1"], "deliveries": []}, {"site_id": "RF2", "pickups": [], "deliveries": ["P1"]}]}
+{"sequence": 6, "time": 0, "event_type": "leg_departure", "leg_id": "AV1:L1", "vehicle_id": "AV1", "origin_coordinates": [0, 0], "target": "CP1", "target_coordinates": [1, 0], "departure_time": 0, "arrival_time": 1.0, "distance": 1.0, "load": [], "remaining_range_at_departure": null}
+{"sequence": 7, "time": 1.0, "event_type": "leg_arrival", "leg_id": "AV1:L1", "vehicle_id": "AV1", "origin_coordinates": [0, 0], "target": "CP1", "target_coordinates": [1, 0], "departure_time": 0, "arrival_time": 1.0, "distance": 1.0, "load": [], "remaining_range_at_departure": null, "remaining_range_on_arrival": null}
+{"sequence": 8, "time": 1.0, "event_type": "pickup", "product_id": "P1", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 9, "time": 1.0, "event_type": "stop_completed", "vehicle_id": "AV1", "stop": {"site_id": "CP1", "pickups": ["P1"], "deliveries": []}}
+{"sequence": 10, "time": 1.0, "event_type": "leg_departure", "leg_id": "AV1:L2", "vehicle_id": "AV1", "origin_coordinates": [1, 0], "target": "RF2", "target_coordinates": [4, 0], "departure_time": 1.0, "arrival_time": 4.0, "distance": 3.0, "load": ["P1"], "remaining_range_at_departure": null}
+{"sequence": 11, "time": 4, "event_type": "leg_arrival", "leg_id": "AV1:L2", "vehicle_id": "AV1", "origin_coordinates": [1, 0], "target": "RF2", "target_coordinates": [4, 0], "departure_time": 1.0, "arrival_time": 4.0, "distance": 3.0, "load": ["P1"], "remaining_range_at_departure": null, "remaining_range_on_arrival": null}
+{"sequence": 12, "time": 4, "event_type": "plant_admission", "product_id": "P1", "vehicle_id": "AV1", "plant_id": "RF2", "waiting_count": 1, "held_count": 0}
+{"sequence": 13, "time": 4, "event_type": "operation_start", "product_id": "P1", "plant_id": "RF2", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 4, "end_time": 5, "window": [4, 10]}
+{"sequence": 14, "time": 4, "event_type": "stop_completed", "vehicle_id": "AV1", "stop": {"site_id": "RF2", "pickups": [], "deliveries": ["P1"]}}
+{"sequence": 15, "time": 4, "event_type": "vehicle_available", "vehicle_id": "AV1", "reason": "facility_stop"}
+{"sequence": 16, "time": 4, "event_type": "dispatch", "trigger": {"released_products": [], "available_vehicles": ["AV1"]}, "decision_index": 2}
+{"sequence": 17, "time": 5, "event_type": "operation_complete", "product_id": "P1", "plant_id": "RF2", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 4, "end_time": 5, "window": [4, 10]}
+{"sequence": 18, "time": 5, "event_type": "remanufactured", "product_id": "P1"}
+{"sequence": 19, "time": 10, "event_type": "horizon", "waiting_count": 0, "held_count": 0}

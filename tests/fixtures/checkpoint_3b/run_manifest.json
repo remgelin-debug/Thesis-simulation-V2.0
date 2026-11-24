@@ -1,0 +1,18 @@
+{
+  "run_id": "enabled",
+  "policy": "static_quality_unaware",
+  "input_format_version": 2,
+  "output_format_version": 2,
+  "scenario_sha256": "70b7b3bd29e38408345f74a910514ff2a1faab729a7cef804508fef092105d09",
+  "seed_provenance": {
+    "algorithm": "Random.random/exponential-inverse-cdf/weighted-cdf-v1",
+    "generation_version": 1,
+    "master_seed": 42,
+    "source": "seeded_configuration",
+    "stream_seeds": {
+      "arrivals_batches": 18165402566059285713217352082573450588939206487774137922708143980535774982223,
+      "qualities": 87600488958995658968235938654802663207049307675157998400708431242458577927536
+    }
+  },
+  "status": "completed"
+}

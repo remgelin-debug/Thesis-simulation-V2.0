@@ -1,0 +1,12 @@
+{
+  "run_id": "checkpoint-3c-initial",
+  "policy": "static_quality_unaware",
+  "input_format_version": 2,
+  "output_format_version": 2,
+  "scenario_sha256": "565b8171ad9ced637542bed671dc4bb2220b6732b6047709df062e0a3500d59f",
+  "seed_provenance": {
+    "source": "Checkpoint 3c deterministic range example",
+    "seed": null
+  },
+  "status": "completed"
+}

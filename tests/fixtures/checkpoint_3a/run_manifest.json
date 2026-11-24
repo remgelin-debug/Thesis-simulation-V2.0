@@ -1,0 +1,12 @@
+{
+  "run_id": "checkpoint-3a-initial",
+  "policy": "static_quality_unaware",
+  "input_format_version": 2,
+  "output_format_version": 2,
+  "scenario_sha256": "a1f6427990bf1bb8d3a0d62fc42c462924a4f75812013dc1ebfa48b8a134b21a",
+  "seed_provenance": {
+    "source": "Checkpoint 3a deterministic slot example",
+    "seed": null
+  },
+  "status": "completed"
+}

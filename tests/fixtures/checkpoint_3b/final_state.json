@@ -1,0 +1,357 @@
+{
+  "time": 14,
+  "products": {
+    "P000001": {
+      "state": "recycled",
+      "location": null,
+      "next_operation": 0,
+      "assigned_vehicle": "AV2",
+      "planned_destination": "RC1",
+      "actual_destination": "RC1",
+      "milestones": {
+        "release": 0.05082716154543322,
+        "pickup": 5.0,
+        "recycling": 6.414213562373095
+      },
+      "history": [],
+      "inventory_wait": 0.0
+    },
+    "P000002": {
+      "state": "remanufactured",
+      "location": null,
+      "next_operation": 1,
+      "assigned_vehicle": "AV1",
+      "planned_destination": "RF1",
+      "actual_destination": "RF1",
+      "milestones": {
+        "release": 0.05082716154543322,
+        "pickup": 5.0,
+        "admission": 6.0,
+        "completion": 6.5
+      },
+      "history": [
+        {
+          "product_id": "P000002",
+          "plant_id": "RF1",
+          "workstation_id": "WS1",
+          "operation_id": 1,
+          "operation_index": 0,
+          "start_time": 6.0,
+          "end_time": 6.5,
+          "window": [
+            0,
+            14
+          ]
+        }
+      ],
+      "inventory_wait": 0.0
+    },
+    "P000003": {
+      "state": "remanufactured",
+      "location": null,
+      "next_operation": 1,
+      "assigned_vehicle": "AV1",
+      "planned_destination": "RF1",
+      "actual_destination": "RF1",
+      "milestones": {
+        "release": 0.5676968513057951,
+        "pickup": 5.0,
+        "admission": 6.0,
+        "completion": 7.0
+      },
+      "history": [
+        {
+          "product_id": "P000003",
+          "plant_id": "RF1",
+          "workstation_id": "WS1",
+          "operation_id": 1,
+          "operation_index": 0,
+          "start_time": 6.5,
+          "end_time": 7.0,
+          "window": [
+            0,
+            14
+          ]
+        }
+      ],
+      "inventory_wait": 0.5
+    },
+    "P000004": {
+      "state": "remanufactured",
+      "location": null,
+      "next_operation": 1,
+      "assigned_vehicle": "AV1",
+      "planned_destination": "RF1",
+      "actual_destination": "RF1",
+      "milestones": {
+        "release": 0.5676968513057951,
+        "pickup": 5.0,
+        "admission": 6.0,
+        "completion": 7.5
+      },
+      "history": [
+        {
+          "product_id": "P000004",
+          "plant_id": "RF1",
+          "workstation_id": "WS1",
+          "operation_id": 1,
+          "operation_index": 0,
+          "start_time": 7.0,
+          "end_time": 7.5,
+          "window": [
+            0,
+            14
+          ]
+        }
+      ],
+      "inventory_wait": 1.0
+    },
+    "P000005": {
+      "state": "recycled",
+      "location": null,
+      "next_operation": 0,
+      "assigned_vehicle": "AV2",
+      "planned_destination": "RC1",
+      "actual_destination": "RC1",
+      "milestones": {
+        "release": 1.1514903425493204,
+        "pickup": 5.0,
+        "recycling": 6.414213562373095
+      },
+      "history": [],
+      "inventory_wait": 0.0
+    },
+    "P000006": {
+      "state": "remanufactured",
+      "location": null,
+      "next_operation": 1,
+      "assigned_vehicle": "AV1",
+      "planned_destination": "RF1",
+      "actual_destination": "RF1",
+      "milestones": {
+        "release": 1.5046305022123316,
+        "pickup": 5.0,
+        "admission": 6.0,
+        "completion": 8.0
+      },
+      "history": [
+        {
+          "product_id": "P000006",
+          "plant_id": "RF1",
+          "workstation_id": "WS1",
+          "operation_id": 1,
+          "operation_index": 0,
+          "start_time": 7.5,
+          "end_time": 8.0,
+          "window": [
+            0,
+            14
+          ]
+        }
+      ],
+      "inventory_wait": 1.5
+    },
+    "P000007": {
+      "state": "recycled",
+      "location": null,
+      "next_operation": 0,
+      "assigned_vehicle": "AV2",
+      "planned_destination": "RC1",
+      "actual_destination": "RC1",
+      "milestones": {
+        "release": 1.5046305022123316,
+        "pickup": 5.0,
+        "recycling": 6.414213562373095
+      },
+      "history": [],
+      "inventory_wait": 0.0
+    },
+    "P000008": {
+      "state": "recycled",
+      "location": null,
+      "next_operation": 0,
+      "assigned_vehicle": "AV2",
+      "planned_destination": "RC1",
+      "actual_destination": "RC1",
+      "milestones": {
+        "release": 1.873462063843127,
+        "pickup": 5.0,
+        "recycling": 6.414213562373095
+      },
+      "history": [],
+      "inventory_wait": 0.0
+    },
+    "P000009": {
+      "state": "remanufactured",
+      "location": null,
+      "next_operation": 1,
+      "assigned_vehicle": "AV1",
+      "planned_destination": "RF1",
+      "actual_destination": "RF1",
+      "milestones": {
+        "release": 1.873462063843127,
+        "pickup": 5.0,
+        "admission": 6.0,
+        "completion": 8.5
+      },
+      "history": [
+        {
+          "product_id": "P000009",
+          "plant_id": "RF1",
+          "workstation_id": "WS1",
+          "operation_id": 1,
+          "operation_index": 0,
+          "start_time": 8.0,
+          "end_time": 8.5,
+          "window": [
+            0,
+            14
+          ]
+        }
+      ],
+      "inventory_wait": 2.0
+    },
+    "P000010": {
+      "state": "recycled",
+      "location": null,
+      "next_operation": 0,
+      "assigned_vehicle": "AV2",
+      "planned_destination": "RC1",
+      "actual_destination": "RC1",
+      "milestones": {
+        "release": 2.4491095964385297,
+        "pickup": 5.0,
+        "recycling": 6.414213562373095
+      },
+      "history": [],
+      "inventory_wait": 0.0
+    },
+    "P000011": {
+      "state": "remanufactured",
+      "location": null,
+      "next_operation": 1,
+      "assigned_vehicle": "AV1",
+      "planned_destination": "RF1",
+      "actual_destination": "RF1",
+      "milestones": {
+        "release": 2.537446378680471,
+        "pickup": 5.0,
+        "admission": 6.0,
+        "completion": 9.0
+      },
+      "history": [
+        {
+          "product_id": "P000011",
+          "plant_id": "RF1",
+          "workstation_id": "WS1",
+          "operation_id": 1,
+          "operation_index": 0,
+          "start_time": 8.5,
+          "end_time": 9.0,
+          "window": [
+            0,
+            14
+          ]
+        }
+      ],
+      "inventory_wait": 2.5
+    },
+    "P000012": {
+      "state": "recycled",
+      "location": null,
+      "next_operation": 0,
+      "assigned_vehicle": "AV2",
+      "planned_destination": "RC1",
+      "actual_destination": "RC1",
+      "milestones": {
+        "release": 2.7545431076144737,
+        "pickup": 5.0,
+        "recycling": 6.414213562373095
+      },
+      "history": [],
+      "inventory_wait": 0.0
+    },
+    "P000013": {
+      "state": "remanufactured",
+      "location": null,
+      "next_operation": 1,
+      "assigned_vehicle": "AV1",
+      "planned_destination": "RF1",
+      "actual_destination": "RF1",
+      "milestones": {
+        "release": 2.9416812035014677,
+        "pickup": 5.0,
+        "admission": 6.0,
+        "completion": 9.5
+      },
+      "history": [
+        {
+          "product_id": "P000013",
+          "plant_id": "RF1",
+          "workstation_id": "WS1",
+          "operation_id": 1,
+          "operation_index": 0,
+          "start_time": 9.0,
+          "end_time": 9.5,
+          "window": [
+            0,
+            14
+          ]
+        }
+      ],
+      "inventory_wait": 3.0
+    },
+    "P000014": {
+      "state": "recycled",
+      "location": null,
+      "next_operation": 0,
+      "assigned_vehicle": "AV2",
+      "planned_destination": "RC1",
+      "actual_destination": "RC1",
+      "milestones": {
+        "release": 2.9416812035014677,
+        "pickup": 5.0,
+        "recycling": 6.414213562373095
+      },
+      "history": [],
+      "inventory_wait": 0.0
+    }
+  },
+  "vehicles": {
+    "AV1": {
+      "status": "idle",
+      "location": "RF1",
+      "load": [],
+      "active_leg": null,
+      "distance": 2.0,
+      "waiting_since": null,
+      "waiting_to_unload": 0.0,
+      "wait_logged": false
+    },
+    "AV2": {
+      "status": "idle",
+      "location": "RC1",
+      "load": [],
+      "active_leg": null,
+      "distance": 2.414213562373095,
+      "waiting_since": null,
+      "waiting_to_unload": 0.0,
+      "wait_logged": false
+    }
+  },
+  "workstations": {
+    "WS1": null
+  },
+  "inventory": {},
+  "held_slots": [],
+  "waiting_vehicles": {},
+  "summary": {
+    "generated": 14,
+    "remanufactured": 7,
+    "recycled": 7,
+    "unfinished": 0,
+    "vehicle_distance": 4.414213562373095,
+    "plant_inventory_wait": 10.5,
+    "waiting_to_unload": 0.0
+  }
+}

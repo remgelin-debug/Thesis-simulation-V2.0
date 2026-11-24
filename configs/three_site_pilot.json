@@ -1,0 +1,236 @@
+{
+  "format_version": 3,
+  "policy": "dynamic_quality_aware",
+  "horizon": 40,
+  "collection_points": [
+    {
+      "id": "CP1",
+      "coordinates": [
+        2,
+        1
+      ],
+      "generation": {
+        "arrival_rate": 0.16,
+        "start_time": 0,
+        "end_time": 12,
+        "batch_size": {
+          "values": [
+            1,
+            2
+          ],
+          "weights": [
+            4,
+            1
+          ]
+        }
+      },
+      "quality_weights": {
+        "Q132": 0.5,
+        "Q3": 0.3,
+        "Q21": 0.2
+      }
+    },
+    {
+      "id": "CP2",
+      "coordinates": [
+        6,
+        3
+      ],
+      "generation": {
+        "arrival_rate": 0.12,
+        "start_time": 0,
+        "end_time": 12,
+        "batch_size": 1
+      },
+      "quality_weights": {
+        "Q132": 0.3,
+        "Q3": 0.5,
+        "Q21": 0.2
+      }
+    },
+    {
+      "id": "CP3",
+      "coordinates": [
+        2,
+        7
+      ],
+      "generation": {
+        "arrival_rate": 0.1,
+        "start_time": 0,
+        "end_time": 12,
+        "batch_size": {
+          "values": [
+            1,
+            2
+          ],
+          "weights": [
+            1,
+            1
+          ]
+        }
+      },
+      "quality_weights": {
+        "Q132": 0.4,
+        "Q3": 0.2,
+        "Q21": 0.4
+      }
+    }
+  ],
+  "plants": [
+    {
+      "id": "RF1",
+      "coordinates": [
+        0,
+        0
+      ],
+      "inventory_capacity": 3,
+      "workstations": [
+        {
+          "id": "WS1",
+          "operation_id": 1,
+          "duration": 1
+        },
+        {
+          "id": "WS2",
+          "operation_id": 2,
+          "duration": 1.5
+        },
+        {
+          "id": "WS3",
+          "operation_id": 3,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "RF2",
+      "coordinates": [
+        8,
+        0
+      ],
+      "inventory_capacity": 3,
+      "workstations": [
+        {
+          "id": "WS1",
+          "operation_id": 1,
+          "duration": 1
+        },
+        {
+          "id": "WS2",
+          "operation_id": 2,
+          "duration": 1.5
+        },
+        {
+          "id": "WS3",
+          "operation_id": 3,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "RF3",
+      "coordinates": [
+        4,
+        8
+      ],
+      "inventory_capacity": 3,
+      "workstations": [
+        {
+          "id": "WS1",
+          "operation_id": 1,
+          "duration": 1
+        },
+        {
+          "id": "WS2",
+          "operation_id": 2,
+          "duration": 1.5
+        },
+        {
+          "id": "WS3",
+          "operation_id": 3,
+          "duration": 2
+        }
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "AV1",
+      "initial_site": "RF1",
+      "speed": 1,
+      "payload_capacity": 2,
+      "maximum_range": null
+    },
+    {
+      "id": "AV2",
+      "initial_site": "RF2",
+      "speed": 1,
+      "payload_capacity": 2,
+      "maximum_range": null
+    },
+    {
+      "id": "AV3",
+      "initial_site": "RF3",
+      "speed": 1,
+      "payload_capacity": 2,
+      "maximum_range": null
+    }
+  ],
+  "recycling_facilities": [],
+  "trips": [],
+  "quality_classes": [
+    {
+      "id": "Q132",
+      "weight": 0.5,
+      "disposition": "remanufacture",
+      "operations": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "id": "Q3",
+      "weight": 0.3,
+      "disposition": "remanufacture",
+      "operations": [
+        3
+      ]
+    },
+    {
+      "id": "Q21",
+      "weight": 0.2,
+      "disposition": "remanufacture",
+      "operations": [
+        2,
+        1
+      ]
+    }
+  ],
+  "schedule_generation": {
+    "start_time": 0,
+    "end_time": 40,
+    "initial_delay": [
+      0,
+      0
+    ],
+    "open_duration": [
+      8,
+      12
+    ],
+    "closed_duration": [
+      1,
+      3
+    ]
+  },
+  "coordinate_generation": {
+    "x_range": [
+      0,
+      8
+    ],
+    "y_range": [
+      0,
+      8
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "time": 12,
+  "products": {
+    "P1": {
+      "state": "remanufactured",
+      "location": null,
+      "next_operation": 2,
+      "assigned_vehicle": "AV1",
+      "planned_destination": "RF1",
+      "actual_destination": "RF1",
+      "milestones": {
+        "release": 0,
+        "pickup": 2.0,
+        "admission": 4,
+        "completion": 11
+      },
+      "history": [
+        {
+          "product_id": "P1",
+          "plant_id": "RF1",
+          "workstation_id": "WS1",
+          "operation_id": 1,
+          "operation_index": 0,
+          "start_time": 4,
+          "end_time": 6,
+          "window": [
+            4,
+            6
+          ]
+        },
+        {
+          "product_id": "P1",
+          "plant_id": "RF1",
+          "workstation_id": "WS3",
+          "operation_id": 3,
+          "operation_index": 1,
+          "start_time": 8,
+          "end_time": 11,
+          "window": [
+            8,
+            11
+          ]
+        }
+      ],
+      "inventory_wait": 2.0
+    },
+    "P2": {
+      "state": "remanufactured",
+      "location": null,
+      "next_operation": 1,
+      "assigned_vehicle": "AV2",
+      "planned_destination": "RF1",
+      "actual_destination": "RF1",
+      "milestones": {
+        "release": 0,
+        "pickup": 3.0,
+        "admission": 8,
+        "completion": 11
+      },
+      "history": [
+        {
+          "product_id": "P2",
+          "plant_id": "RF1",
+          "workstation_id": "WS1",
+          "operation_id": 1,
+          "operation_index": 0,
+          "start_time": 9,
+          "end_time": 11,
+          "window": [
+            9,
+            11
+          ]
+        }
+      ],
+      "inventory_wait": 1.0
+    }
+  },
+  "vehicles": {
+    "AV1": {
+      "status": "idle",
+      "location": "RF1",
+      "load": [],
+      "active_leg": null,
+      "distance": 4.0,
+      "waiting_since": null,
+      "waiting_to_unload": 0.0,
+      "wait_logged": false
+    },
+    "AV2": {
+      "status": "idle",
+      "location": "RF1",
+      "load": [],
+      "active_leg": null,
+      "distance": 4.0,
+      "waiting_since": null,
+      "waiting_to_unload": 3.0,
+      "wait_logged": false
+    }
+  },
+  "workstations": {
+    "WS1": null,
+    "WS3": null
+  },
+  "inventory": {},
+  "held_slots": [],
+  "waiting_vehicles": {},
+  "summary": {
+    "generated": 2,
+    "remanufactured": 2,
+    "recycled": 0,
+    "unfinished": 0,
+    "vehicle_distance": 8.0,
+    "plant_inventory_wait": 3.0,
+    "waiting_to_unload": 3.0
+  }
+}

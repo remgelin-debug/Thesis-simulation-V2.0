@@ -1,0 +1,86 @@
+{"sequence": 1, "time": 0.05082716154543322, "event_type": "return_release", "product": {"batch_id": "B000001", "disposition": "recycle", "id": "P000001", "operations": [], "origin": "CP1", "quality_class": "QR", "release_time": 0.05082716154543322}}
+{"sequence": 2, "time": 0.05082716154543322, "event_type": "return_release", "product": {"batch_id": "B000001", "disposition": "remanufacture", "id": "P000002", "operations": [1], "origin": "CP1", "quality_class": "QM", "release_time": 0.05082716154543322}}
+{"sequence": 3, "time": 0.5676968513057951, "event_type": "return_release", "product": {"batch_id": "B000002", "disposition": "remanufacture", "id": "P000003", "operations": [1], "origin": "CP1", "quality_class": "QM", "release_time": 0.5676968513057951}}
+{"sequence": 4, "time": 0.5676968513057951, "event_type": "return_release", "product": {"batch_id": "B000002", "disposition": "remanufacture", "id": "P000004", "operations": [1], "origin": "CP1", "quality_class": "QM", "release_time": 0.5676968513057951}}
+{"sequence": 5, "time": 1.1514903425493204, "event_type": "return_release", "product": {"batch_id": "B000003", "disposition": "recycle", "id": "P000005", "operations": [], "origin": "CP1", "quality_class": "QR", "release_time": 1.1514903425493204}}
+{"sequence": 6, "time": 1.5046305022123316, "event_type": "return_release", "product": {"batch_id": "B000004", "disposition": "remanufacture", "id": "P000006", "operations": [1], "origin": "CP1", "quality_class": "QM", "release_time": 1.5046305022123316}}
+{"sequence": 7, "time": 1.5046305022123316, "event_type": "return_release", "product": {"batch_id": "B000004", "disposition": "recycle", "id": "P000007", "operations": [], "origin": "CP1", "quality_class": "QR", "release_time": 1.5046305022123316}}
+{"sequence": 8, "time": 1.873462063843127, "event_type": "return_release", "product": {"batch_id": "B000005", "disposition": "recycle", "id": "P000008", "operations": [], "origin": "CP1", "quality_class": "QR", "release_time": 1.873462063843127}}
+{"sequence": 9, "time": 1.873462063843127, "event_type": "return_release", "product": {"batch_id": "B000005", "disposition": "remanufacture", "id": "P000009", "operations": [1], "origin": "CP1", "quality_class": "QM", "release_time": 1.873462063843127}}
+{"sequence": 10, "time": 2.4491095964385297, "event_type": "return_release", "product": {"batch_id": "B000006", "disposition": "recycle", "id": "P000010", "operations": [], "origin": "CP1", "quality_class": "QR", "release_time": 2.4491095964385297}}
+{"sequence": 11, "time": 2.537446378680471, "event_type": "return_release", "product": {"batch_id": "B000007", "disposition": "remanufacture", "id": "P000011", "operations": [1], "origin": "CP1", "quality_class": "QM", "release_time": 2.537446378680471}}
+{"sequence": 12, "time": 2.7545431076144737, "event_type": "return_release", "product": {"batch_id": "B000008", "disposition": "recycle", "id": "P000012", "operations": [], "origin": "CP1", "quality_class": "QR", "release_time": 2.7545431076144737}}
+{"sequence": 13, "time": 2.9416812035014677, "event_type": "return_release", "product": {"batch_id": "B000009", "disposition": "remanufacture", "id": "P000013", "operations": [1], "origin": "CP1", "quality_class": "QM", "release_time": 2.9416812035014677}}
+{"sequence": 14, "time": 2.9416812035014677, "event_type": "return_release", "product": {"batch_id": "B000009", "disposition": "recycle", "id": "P000014", "operations": [], "origin": "CP1", "quality_class": "QR", "release_time": 2.9416812035014677}}
+{"sequence": 15, "time": 4, "event_type": "assignment", "product_id": "P000002", "vehicle_id": "AV1", "destination": "RF1"}
+{"sequence": 16, "time": 4, "event_type": "assignment", "product_id": "P000003", "vehicle_id": "AV1", "destination": "RF1"}
+{"sequence": 17, "time": 4, "event_type": "assignment", "product_id": "P000004", "vehicle_id": "AV1", "destination": "RF1"}
+{"sequence": 18, "time": 4, "event_type": "assignment", "product_id": "P000006", "vehicle_id": "AV1", "destination": "RF1"}
+{"sequence": 19, "time": 4, "event_type": "assignment", "product_id": "P000009", "vehicle_id": "AV1", "destination": "RF1"}
+{"sequence": 20, "time": 4, "event_type": "assignment", "product_id": "P000011", "vehicle_id": "AV1", "destination": "RF1"}
+{"sequence": 21, "time": 4, "event_type": "assignment", "product_id": "P000013", "vehicle_id": "AV1", "destination": "RF1"}
+{"sequence": 22, "time": 4, "event_type": "leg_departure", "vehicle_id": "AV1", "origin": "RF1", "target": "CP1", "origin_coordinates": [0, 0], "target_coordinates": [1, 0], "departure_time": 4, "arrival_time": 5.0, "distance": 1.0, "load": []}
+{"sequence": 23, "time": 4, "event_type": "assignment", "product_id": "P000001", "vehicle_id": "AV2", "destination": "RC1"}
+{"sequence": 24, "time": 4, "event_type": "assignment", "product_id": "P000005", "vehicle_id": "AV2", "destination": "RC1"}
+{"sequence": 25, "time": 4, "event_type": "assignment", "product_id": "P000007", "vehicle_id": "AV2", "destination": "RC1"}
+{"sequence": 26, "time": 4, "event_type": "assignment", "product_id": "P000008", "vehicle_id": "AV2", "destination": "RC1"}
+{"sequence": 27, "time": 4, "event_type": "assignment", "product_id": "P000010", "vehicle_id": "AV2", "destination": "RC1"}
+{"sequence": 28, "time": 4, "event_type": "assignment", "product_id": "P000012", "vehicle_id": "AV2", "destination": "RC1"}
+{"sequence": 29, "time": 4, "event_type": "assignment", "product_id": "P000014", "vehicle_id": "AV2", "destination": "RC1"}
+{"sequence": 30, "time": 4, "event_type": "leg_departure", "vehicle_id": "AV2", "origin": "RF1", "target": "CP1", "origin_coordinates": [0, 0], "target_coordinates": [1, 0], "departure_time": 4, "arrival_time": 5.0, "distance": 1.0, "load": []}
+{"sequence": 31, "time": 5.0, "event_type": "leg_arrival", "vehicle_id": "AV1", "origin": "RF1", "target": "CP1", "origin_coordinates": [0, 0], "target_coordinates": [1, 0], "departure_time": 4, "arrival_time": 5.0, "distance": 1.0, "load": []}
+{"sequence": 32, "time": 5.0, "event_type": "pickup", "product_id": "P000002", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 33, "time": 5.0, "event_type": "pickup", "product_id": "P000003", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 34, "time": 5.0, "event_type": "pickup", "product_id": "P000004", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 35, "time": 5.0, "event_type": "pickup", "product_id": "P000006", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 36, "time": 5.0, "event_type": "pickup", "product_id": "P000009", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 37, "time": 5.0, "event_type": "pickup", "product_id": "P000011", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 38, "time": 5.0, "event_type": "pickup", "product_id": "P000013", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 39, "time": 5.0, "event_type": "leg_departure", "vehicle_id": "AV1", "origin": "CP1", "target": "RF1", "origin_coordinates": [1, 0], "target_coordinates": [0, 0], "departure_time": 5.0, "arrival_time": 6.0, "distance": 1.0, "load": ["P000002", "P000003", "P000004", "P000006", "P000009", "P000011", "P000013"]}
+{"sequence": 40, "time": 5.0, "event_type": "leg_arrival", "vehicle_id": "AV2", "origin": "RF1", "target": "CP1", "origin_coordinates": [0, 0], "target_coordinates": [1, 0], "departure_time": 4, "arrival_time": 5.0, "distance": 1.0, "load": []}
+{"sequence": 41, "time": 5.0, "event_type": "pickup", "product_id": "P000001", "vehicle_id": "AV2", "collection_point": "CP1"}
+{"sequence": 42, "time": 5.0, "event_type": "pickup", "product_id": "P000005", "vehicle_id": "AV2", "collection_point": "CP1"}
+{"sequence": 43, "time": 5.0, "event_type": "pickup", "product_id": "P000007", "vehicle_id": "AV2", "collection_point": "CP1"}
+{"sequence": 44, "time": 5.0, "event_type": "pickup", "product_id": "P000008", "vehicle_id": "AV2", "collection_point": "CP1"}
+{"sequence": 45, "time": 5.0, "event_type": "pickup", "product_id": "P000010", "vehicle_id": "AV2", "collection_point": "CP1"}
+{"sequence": 46, "time": 5.0, "event_type": "pickup", "product_id": "P000012", "vehicle_id": "AV2", "collection_point": "CP1"}
+{"sequence": 47, "time": 5.0, "event_type": "pickup", "product_id": "P000014", "vehicle_id": "AV2", "collection_point": "CP1"}
+{"sequence": 48, "time": 5.0, "event_type": "leg_departure", "vehicle_id": "AV2", "origin": "CP1", "target": "RC1", "origin_coordinates": [1, 0], "target_coordinates": [0, 1], "departure_time": 5.0, "arrival_time": 6.414213562373095, "distance": 1.4142135623730951, "load": ["P000001", "P000005", "P000007", "P000008", "P000010", "P000012", "P000014"]}
+{"sequence": 49, "time": 6.0, "event_type": "leg_arrival", "vehicle_id": "AV1", "origin": "CP1", "target": "RF1", "origin_coordinates": [1, 0], "target_coordinates": [0, 0], "departure_time": 5.0, "arrival_time": 6.0, "distance": 1.0, "load": ["P000002", "P000003", "P000004", "P000006", "P000009", "P000011", "P000013"]}
+{"sequence": 50, "time": 6.0, "event_type": "plant_admission", "product_id": "P000002", "vehicle_id": "AV1", "plant_id": "RF1", "waiting_count": 1, "held_count": 0}
+{"sequence": 51, "time": 6.0, "event_type": "plant_admission", "product_id": "P000003", "vehicle_id": "AV1", "plant_id": "RF1", "waiting_count": 2, "held_count": 0}
+{"sequence": 52, "time": 6.0, "event_type": "plant_admission", "product_id": "P000004", "vehicle_id": "AV1", "plant_id": "RF1", "waiting_count": 3, "held_count": 0}
+{"sequence": 53, "time": 6.0, "event_type": "plant_admission", "product_id": "P000006", "vehicle_id": "AV1", "plant_id": "RF1", "waiting_count": 4, "held_count": 0}
+{"sequence": 54, "time": 6.0, "event_type": "plant_admission", "product_id": "P000009", "vehicle_id": "AV1", "plant_id": "RF1", "waiting_count": 5, "held_count": 0}
+{"sequence": 55, "time": 6.0, "event_type": "plant_admission", "product_id": "P000011", "vehicle_id": "AV1", "plant_id": "RF1", "waiting_count": 6, "held_count": 0}
+{"sequence": 56, "time": 6.0, "event_type": "plant_admission", "product_id": "P000013", "vehicle_id": "AV1", "plant_id": "RF1", "waiting_count": 7, "held_count": 0}
+{"sequence": 57, "time": 6.0, "event_type": "operation_start", "product_id": "P000002", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 6.0, "end_time": 6.5, "window": [0, 14]}
+{"sequence": 58, "time": 6.414213562373095, "event_type": "leg_arrival", "vehicle_id": "AV2", "origin": "CP1", "target": "RC1", "origin_coordinates": [1, 0], "target_coordinates": [0, 1], "departure_time": 5.0, "arrival_time": 6.414213562373095, "distance": 1.4142135623730951, "load": ["P000001", "P000005", "P000007", "P000008", "P000010", "P000012", "P000014"]}
+{"sequence": 59, "time": 6.414213562373095, "event_type": "recycler_acceptance", "product_id": "P000001", "vehicle_id": "AV2", "recycler_id": "RC1"}
+{"sequence": 60, "time": 6.414213562373095, "event_type": "recycler_acceptance", "product_id": "P000005", "vehicle_id": "AV2", "recycler_id": "RC1"}
+{"sequence": 61, "time": 6.414213562373095, "event_type": "recycler_acceptance", "product_id": "P000007", "vehicle_id": "AV2", "recycler_id": "RC1"}
+{"sequence": 62, "time": 6.414213562373095, "event_type": "recycler_acceptance", "product_id": "P000008", "vehicle_id": "AV2", "recycler_id": "RC1"}
+{"sequence": 63, "time": 6.414213562373095, "event_type": "recycler_acceptance", "product_id": "P000010", "vehicle_id": "AV2", "recycler_id": "RC1"}
+{"sequence": 64, "time": 6.414213562373095, "event_type": "recycler_acceptance", "product_id": "P000012", "vehicle_id": "AV2", "recycler_id": "RC1"}
+{"sequence": 65, "time": 6.414213562373095, "event_type": "recycler_acceptance", "product_id": "P000014", "vehicle_id": "AV2", "recycler_id": "RC1"}
+{"sequence": 66, "time": 6.5, "event_type": "operation_complete", "product_id": "P000002", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 6.0, "end_time": 6.5, "window": [0, 14]}
+{"sequence": 67, "time": 6.5, "event_type": "remanufactured", "product_id": "P000002"}
+{"sequence": 68, "time": 6.5, "event_type": "operation_start", "product_id": "P000003", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 6.5, "end_time": 7.0, "window": [0, 14]}
+{"sequence": 69, "time": 7.0, "event_type": "operation_complete", "product_id": "P000003", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 6.5, "end_time": 7.0, "window": [0, 14]}
+{"sequence": 70, "time": 7.0, "event_type": "remanufactured", "product_id": "P000003"}
+{"sequence": 71, "time": 7.0, "event_type": "operation_start", "product_id": "P000004", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 7.0, "end_time": 7.5, "window": [0, 14]}
+{"sequence": 72, "time": 7.5, "event_type": "operation_complete", "product_id": "P000004", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 7.0, "end_time": 7.5, "window": [0, 14]}
+{"sequence": 73, "time": 7.5, "event_type": "remanufactured", "product_id": "P000004"}
+{"sequence": 74, "time": 7.5, "event_type": "operation_start", "product_id": "P000006", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 7.5, "end_time": 8.0, "window": [0, 14]}
+{"sequence": 75, "time": 8.0, "event_type": "operation_complete", "product_id": "P000006", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 7.5, "end_time": 8.0, "window": [0, 14]}
+{"sequence": 76, "time": 8.0, "event_type": "remanufactured", "product_id": "P000006"}
+{"sequence": 77, "time": 8.0, "event_type": "operation_start", "product_id": "P000009", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 8.0, "end_time": 8.5, "window": [0, 14]}
+{"sequence": 78, "time": 8.5, "event_type": "operation_complete", "product_id": "P000009", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 8.0, "end_time": 8.5, "window": [0, 14]}
+{"sequence": 79, "time": 8.5, "event_type": "remanufactured", "product_id": "P000009"}
+{"sequence": 80, "time": 8.5, "event_type": "operation_start", "product_id": "P000011", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 8.5, "end_time": 9.0, "window": [0, 14]}
+{"sequence": 81, "time": 9.0, "event_type": "operation_complete", "product_id": "P000011", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 8.5, "end_time": 9.0, "window": [0, 14]}
+{"sequence": 82, "time": 9.0, "event_type": "remanufactured", "product_id": "P000011"}
+{"sequence": 83, "time": 9.0, "event_type": "operation_start", "product_id": "P000013", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 9.0, "end_time": 9.5, "window": [0, 14]}
+{"sequence": 84, "time": 9.5, "event_type": "operation_complete", "product_id": "P000013", "plant_id": "RF1", "workstation_id": "WS1", "operation_id": 1, "operation_index": 0, "start_time": 9.0, "end_time": 9.5, "window": [0, 14]}
+{"sequence": 85, "time": 9.5, "event_type": "remanufactured", "product_id": "P000013"}
+{"sequence": 86, "time": 14, "event_type": "horizon", "waiting_count": 0, "held_count": 0}

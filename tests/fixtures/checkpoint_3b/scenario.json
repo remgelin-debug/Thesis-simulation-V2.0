@@ -1,0 +1,338 @@
+{
+  "arrival_batches": [
+    {
+      "batch_size": 2,
+      "id": "B000001",
+      "product_ids": [
+        "P000001",
+        "P000002"
+      ],
+      "release_time": 0.05082716154543322
+    },
+    {
+      "batch_size": 2,
+      "id": "B000002",
+      "product_ids": [
+        "P000003",
+        "P000004"
+      ],
+      "release_time": 0.5676968513057951
+    },
+    {
+      "batch_size": 1,
+      "id": "B000003",
+      "product_ids": [
+        "P000005"
+      ],
+      "release_time": 1.1514903425493204
+    },
+    {
+      "batch_size": 2,
+      "id": "B000004",
+      "product_ids": [
+        "P000006",
+        "P000007"
+      ],
+      "release_time": 1.5046305022123316
+    },
+    {
+      "batch_size": 2,
+      "id": "B000005",
+      "product_ids": [
+        "P000008",
+        "P000009"
+      ],
+      "release_time": 1.873462063843127
+    },
+    {
+      "batch_size": 1,
+      "id": "B000006",
+      "product_ids": [
+        "P000010"
+      ],
+      "release_time": 2.4491095964385297
+    },
+    {
+      "batch_size": 1,
+      "id": "B000007",
+      "product_ids": [
+        "P000011"
+      ],
+      "release_time": 2.537446378680471
+    },
+    {
+      "batch_size": 1,
+      "id": "B000008",
+      "product_ids": [
+        "P000012"
+      ],
+      "release_time": 2.7545431076144737
+    },
+    {
+      "batch_size": 2,
+      "id": "B000009",
+      "product_ids": [
+        "P000013",
+        "P000014"
+      ],
+      "release_time": 2.9416812035014677
+    }
+  ],
+  "collection_point": {
+    "coordinates": [
+      1,
+      0
+    ],
+    "id": "CP1"
+  },
+  "format_version": 2,
+  "generation": {
+    "arrival_rate": 2,
+    "batch_size": {
+      "values": [
+        1,
+        2
+      ],
+      "weights": [
+        1,
+        1
+      ]
+    },
+    "end_time": 3,
+    "start_time": 0
+  },
+  "horizon": 14,
+  "plant": {
+    "coordinates": [
+      0,
+      0
+    ],
+    "id": "RF1",
+    "inventory_capacity": null,
+    "workstations": [
+      {
+        "duration": 0.5,
+        "id": "WS1",
+        "operation_id": 1,
+        "windows": [
+          [
+            0,
+            14
+          ]
+        ]
+      }
+    ]
+  },
+  "policy": "static_quality_unaware",
+  "products": [
+    {
+      "batch_id": "B000001",
+      "disposition": "recycle",
+      "id": "P000001",
+      "operations": [],
+      "origin": "CP1",
+      "quality_class": "QR",
+      "release_time": 0.05082716154543322
+    },
+    {
+      "batch_id": "B000001",
+      "disposition": "remanufacture",
+      "id": "P000002",
+      "operations": [
+        1
+      ],
+      "origin": "CP1",
+      "quality_class": "QM",
+      "release_time": 0.05082716154543322
+    },
+    {
+      "batch_id": "B000002",
+      "disposition": "remanufacture",
+      "id": "P000003",
+      "operations": [
+        1
+      ],
+      "origin": "CP1",
+      "quality_class": "QM",
+      "release_time": 0.5676968513057951
+    },
+    {
+      "batch_id": "B000002",
+      "disposition": "remanufacture",
+      "id": "P000004",
+      "operations": [
+        1
+      ],
+      "origin": "CP1",
+      "quality_class": "QM",
+      "release_time": 0.5676968513057951
+    },
+    {
+      "batch_id": "B000003",
+      "disposition": "recycle",
+      "id": "P000005",
+      "operations": [],
+      "origin": "CP1",
+      "quality_class": "QR",
+      "release_time": 1.1514903425493204
+    },
+    {
+      "batch_id": "B000004",
+      "disposition": "remanufacture",
+      "id": "P000006",
+      "operations": [
+        1
+      ],
+      "origin": "CP1",
+      "quality_class": "QM",
+      "release_time": 1.5046305022123316
+    },
+    {
+      "batch_id": "B000004",
+      "disposition": "recycle",
+      "id": "P000007",
+      "operations": [],
+      "origin": "CP1",
+      "quality_class": "QR",
+      "release_time": 1.5046305022123316
+    },
+    {
+      "batch_id": "B000005",
+      "disposition": "recycle",
+      "id": "P000008",
+      "operations": [],
+      "origin": "CP1",
+      "quality_class": "QR",
+      "release_time": 1.873462063843127
+    },
+    {
+      "batch_id": "B000005",
+      "disposition": "remanufacture",
+      "id": "P000009",
+      "operations": [
+        1
+      ],
+      "origin": "CP1",
+      "quality_class": "QM",
+      "release_time": 1.873462063843127
+    },
+    {
+      "batch_id": "B000006",
+      "disposition": "recycle",
+      "id": "P000010",
+      "operations": [],
+      "origin": "CP1",
+      "quality_class": "QR",
+      "release_time": 2.4491095964385297
+    },
+    {
+      "batch_id": "B000007",
+      "disposition": "remanufacture",
+      "id": "P000011",
+      "operations": [
+        1
+      ],
+      "origin": "CP1",
+      "quality_class": "QM",
+      "release_time": 2.537446378680471
+    },
+    {
+      "batch_id": "B000008",
+      "disposition": "recycle",
+      "id": "P000012",
+      "operations": [],
+      "origin": "CP1",
+      "quality_class": "QR",
+      "release_time": 2.7545431076144737
+    },
+    {
+      "batch_id": "B000009",
+      "disposition": "remanufacture",
+      "id": "P000013",
+      "operations": [
+        1
+      ],
+      "origin": "CP1",
+      "quality_class": "QM",
+      "release_time": 2.9416812035014677
+    },
+    {
+      "batch_id": "B000009",
+      "disposition": "recycle",
+      "id": "P000014",
+      "operations": [],
+      "origin": "CP1",
+      "quality_class": "QR",
+      "release_time": 2.9416812035014677
+    }
+  ],
+  "quality_classes": [
+    {
+      "disposition": "remanufacture",
+      "id": "QM",
+      "operations": [
+        1
+      ],
+      "weight": 1
+    },
+    {
+      "disposition": "recycle",
+      "id": "QR",
+      "operations": [],
+      "weight": 1
+    }
+  ],
+  "recycling_facilities": [
+    {
+      "coordinates": [
+        0,
+        1
+      ],
+      "id": "RC1"
+    }
+  ],
+  "seed_provenance": {
+    "algorithm": "Random.random/exponential-inverse-cdf/weighted-cdf-v1",
+    "generation_version": 1,
+    "master_seed": 42,
+    "source": "seeded_configuration",
+    "stream_seeds": {
+      "arrivals_batches": 18165402566059285713217352082573450588939206487774137922708143980535774982223,
+      "qualities": 87600488958995658968235938654802663207049307675157998400708431242458577927536
+    }
+  },
+  "trips": [
+    {
+      "departure_time": 4,
+      "stops": [
+        "CP1",
+        "RF1"
+      ],
+      "vehicle_id": "AV1"
+    },
+    {
+      "departure_time": 4,
+      "stops": [
+        "CP1",
+        "RC1"
+      ],
+      "vehicle_id": "AV2"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "AV1",
+      "initial_site": "RF1",
+      "maximum_range": null,
+      "payload_capacity": 100,
+      "speed": 1
+    },
+    {
+      "id": "AV2",
+      "initial_site": "RF1",
+      "maximum_range": null,
+      "payload_capacity": 100,
+      "speed": 1
+    }
+  ]
+}

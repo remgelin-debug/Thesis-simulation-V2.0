@@ -1,0 +1,67 @@
+{
+  "format_version": 2,
+  "policy": "static_quality_unaware",
+  "horizon": 10,
+  "seed_provenance": {
+    "source": "Checkpoint 3c deterministic range example",
+    "seed": null
+  },
+  "plant": {
+    "id": "RF1",
+    "coordinates": [
+      0,
+      0
+    ],
+    "inventory_capacity": null,
+    "workstations": [
+      {
+        "id": "WS1",
+        "operation_id": 1,
+        "duration": 1,
+        "windows": [
+          [
+            0,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  "collection_point": {
+    "id": "CP1",
+    "coordinates": [
+      3,
+      0
+    ]
+  },
+  "recycling_facilities": [
+    {
+      "id": "RC1",
+      "coordinates": [
+        4,
+        0
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "AV1",
+      "initial_site": "RF1",
+      "speed": 1,
+      "payload_capacity": 1,
+      "maximum_range": 6
+    }
+  ],
+  "products": [],
+  "trips": [
+    {
+      "vehicle_id": "AV1",
+      "departure_time": 0,
+      "stops": [
+        "RC1",
+        "CP1",
+        "RF1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{"sequence": 1, "time": 0, "event_type": "return_release", "product": {"id": "P1", "origin": "CP1", "release_time": 0, "quality_class": "Q1", "disposition": "remanufacture", "operations": [1]}}
+{"sequence": 2, "time": 0.5, "event_type": "return_release", "product": {"id": "P2", "origin": "CP1", "release_time": 0.5, "quality_class": "Q2", "disposition": "remanufacture", "operations": [2]}}
+{"sequence": 3, "time": 1, "event_type": "assignment", "product_id": "P2", "vehicle_id": "AV1", "destination": "RF1"}
+{"sequence": 4, "time": 1, "event_type": "leg_departure", "vehicle_id": "AV1", "origin": "RF1", "target": "CP1", "origin_coordinates": [0, 0], "target_coordinates": [1, 0], "departure_time": 1, "arrival_time": 2.0, "distance": 1.0, "load": []}
+{"sequence": 5, "time": 2.0, "event_type": "leg_arrival", "vehicle_id": "AV1", "origin": "RF1", "target": "CP1", "origin_coordinates": [0, 0], "target_coordinates": [1, 0], "departure_time": 1, "arrival_time": 2.0, "distance": 1.0, "load": []}
+{"sequence": 6, "time": 2.0, "event_type": "pickup", "product_id": "P2", "vehicle_id": "AV1", "collection_point": "CP1"}
+{"sequence": 7, "time": 2.0, "event_type": "leg_departure", "vehicle_id": "AV1", "origin": "CP1", "target": "RF1", "origin_coordinates": [1, 0], "target_coordinates": [0, 0], "departure_time": 2.0, "arrival_time": 3.0, "distance": 1.0, "load": ["P2"]}
+{"sequence": 8, "time": 3, "event_type": "leg_arrival", "vehicle_id": "AV1", "origin": "CP1", "target": "RF1", "origin_coordinates": [1, 0], "target_coordinates": [0, 0], "departure_time": 2.0, "arrival_time": 3.0, "distance": 1.0, "load": ["P2"]}
+{"sequence": 9, "time": 3, "event_type": "plant_admission", "product_id": "P2", "vehicle_id": "AV1", "plant_id": "RF1", "waiting_count": 1, "held_count": 0}
+{"sequence": 10, "time": 3, "event_type": "operation_start", "product_id": "P2", "plant_id": "RF1", "workstation_id": "WS2", "operation_id": 2, "operation_index": 0, "start_time": 3, "end_time": 4, "window": [3, 10]}
+{"sequence": 11, "time": 4, "event_type": "operation_complete", "product_id": "P2", "plant_id": "RF1", "workstation_id": "WS2", "operation_id": 2, "operation_index": 0, "start_time": 3, "end_time": 4, "window": [3, 10]}
+{"sequence": 12, "time": 4, "event_type": "remanufactured", "product_id": "P2"}
+{"sequence": 13, "time": 10, "event_type": "horizon", "waiting_count": 0, "held_count": 0}
